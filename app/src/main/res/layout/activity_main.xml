@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.edwin.myappportfolio.MainActivity">
+
+    <TextView
+        style="@android:style/TextAppearance.Material.Headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="6dp"
+        android:text="My Nanodegree Apps!" />
+
+    <Button
+        android:id="@+id/button"
+        style="@android:style/TextAppearance.Material.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/abc_button_inset_vertical_material"
+        android:layout_marginTop="@dimen/abc_button_inset_vertical_material"
+        android:background="@color/colorAccent"
+        android:onClick="launchPopularMovies"
+        android:text="popular movies" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/TextAppearance.Material.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/abc_button_inset_vertical_material"
+        android:layout_marginTop="@dimen/abc_button_inset_vertical_material"
+        android:background="@color/colorAccent"
+        android:onClick="launchStockHawk"
+        android:text="Stock hawk" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@android:style/TextAppearance.Material.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/abc_button_inset_vertical_material"
+        android:layout_marginTop="@dimen/abc_button_inset_vertical_material"
+        android:background="@color/colorAccent"
+        android:onClick="launchBuilditBigger"
+        android:text="Build it bigger" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/TextAppearance.Material.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/abc_button_inset_vertical_material"
+        android:layout_marginTop="@dimen/abc_button_inset_vertical_material"
+        android:background="@color/colorAccent"
+        android:onClick="launchMakeitMaterial"
+        android:text="Make your app material" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@android:style/TextAppearance.Material.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/abc_button_inset_vertical_material"
+        android:layout_marginTop="@dimen/abc_button_inset_vertical_material"
+        android:background="@color/colorAccent"
+        android:onClick="launchGoUbiquitous"
+        android:text="Go ubiquitous" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@android:style/TextAppearance.Material.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/abc_button_inset_vertical_material"
+        android:layout_marginTop="@dimen/abc_button_inset_vertical_material"
+        android:background="@color/colorAccent"
+        android:onClick="lanchCapstone"
+        android:text="Capstone" />
+</LinearLayout>
